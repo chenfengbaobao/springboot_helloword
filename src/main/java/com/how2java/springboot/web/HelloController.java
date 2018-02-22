@@ -28,6 +28,7 @@ public class HelloController {
     	if(true){
             throw new Exception("some exception");
         }
+    	System.out.println("some exception");
         return "hello";
     }
  
